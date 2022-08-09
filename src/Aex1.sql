@@ -1,0 +1,2 @@
+select nomefunc 
+from funcionarios

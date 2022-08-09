@@ -1,0 +1,2 @@
+select matricfunc 
+from funcproj

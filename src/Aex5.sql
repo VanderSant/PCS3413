@@ -1,0 +1,2 @@
+select nomedepto 
+from deptos 
