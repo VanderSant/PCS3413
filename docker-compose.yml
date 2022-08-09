@@ -9,5 +9,4 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      # - db:/var/lib/postgresql/data
       - ./src/esquemaFuncProj.sql:/docker-entrypoint-initdb.d/create_tables.sql

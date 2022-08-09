@@ -1,6 +1,6 @@
 
-PATH_ROOT=$(shell pwd)
 FILE ?= Aex1
+PATH_ROOT=$(shell pwd)
 FILE_PATH=$(PATH_ROOT)/src/$(FILE).sql
 
 run:
