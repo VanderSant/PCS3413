@@ -1,2 +1,2 @@
-select distinct nomefunc , matricfunc 
+select distinct matricfunc, nomefunc
 from funcionarios natural join funcproj

@@ -1,2 +1,3 @@
-select codproj , tituloproj , nomedepto, projetos.sigladepto 
-from projetos natural join deptos
+select codproj, tituloproj, nomedepto
+from projetos inner join deptos on
+projetos.siglaDepto = deptos.siglaDepto

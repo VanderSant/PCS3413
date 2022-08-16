@@ -1,4 +1,4 @@
-select codproj ,tituloproj, count(codproj)
-from projetos natural join funcproj
+select codproj, count(matricfunc)
+from funcproj
 group by codproj
-having count(codproj) > 2
+having count(matricfunc) > 2

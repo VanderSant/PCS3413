@@ -1,2 +1,2 @@
-select matricfunc 
+select matricfunc
 from funcproj

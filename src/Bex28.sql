@@ -1,0 +1,2 @@
+select *
+from deptos, funcionarios

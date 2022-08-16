@@ -1,2 +1,2 @@
-select nomefunc 
+select nomefunc
 from funcionarios

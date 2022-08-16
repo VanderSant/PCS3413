@@ -1,2 +1,2 @@
-select sigladepto ,nomedepto 
+select sigladepto, nomedepto
 from deptos

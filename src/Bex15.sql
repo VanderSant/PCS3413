@@ -1,2 +1,2 @@
-select count(distinct nomefunc)
-from funcionarios 
+select count(distinct matricfunc)
+from funcionarios

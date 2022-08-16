@@ -1,2 +1,2 @@
-select nomefunc , matricfunc 
-from funcionarios f 
+select distinct matricfunc, nomefunc
+from funcionarios

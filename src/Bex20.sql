@@ -1,3 +1,3 @@
-select codproj, nomefunc
+select tituloproj, codproj, coordproj, nomefunc
 from projetos inner join funcionarios on
-projetos.coordproj  = funcionarios.matricfunc
+projetos.coordProj=funcionarios.matricfunc

@@ -1,2 +1,2 @@
-select nomedepto 
-from deptos 
+select nomedepto
+from deptos

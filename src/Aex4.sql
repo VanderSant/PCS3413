@@ -1,3 +1,3 @@
-select codproj ,tituloproj , orcamento 
+select codproj, tituloproj, orcamento
 from projetos
-where orcamento >= 300000
+where orcamento <= 300000

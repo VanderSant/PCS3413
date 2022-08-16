@@ -1,3 +1,3 @@
-select codproj , tituloproj
-from projetos inner join deptos on 
-projetos.prazoproj = 1
+select codproj, tituloproj
+from projetos natural join deptos
+where unidadeprazo='ano' and prazoproj=1

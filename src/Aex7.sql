@@ -1,2 +1,2 @@
 select distinct nomefunc
-from funcionarios f
+from funcionarios
